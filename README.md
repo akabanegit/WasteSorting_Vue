@@ -48,3 +48,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 >2.在调用图标时，font-family 和font前缀作为标签调用 例如
 `<span class="iconfont Wasteshuji"></span>`
+
+>3.vue动画的使用

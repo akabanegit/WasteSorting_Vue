@@ -1,7 +1,8 @@
 <template>
   <div class="app-container" >
+    <!-- 头部区域 -->
     <!-- 内容区域 -->
-    <transition>
+    <transition >
     <router-view></router-view>
     </transition>
     
@@ -34,10 +35,25 @@
 .app-container{ 
   overflow:hidden;
   padding-bottom:50px;
-  background-color: white;
-
+}
+//vue动画
+.v-enter
+{
+  opacity: 0;
+  transform: translateX(100%);
+  
+}
+.v-leave-to{
+  
+  opacity: 1;
+  transform: translateX(-100%);
+  position:absolute;
 }
 
+.v-enter-active,
+.v-leave-active{
+  transition: all 0s ease;
+}
 
 
 </style>
