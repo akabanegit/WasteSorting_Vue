@@ -41,3 +41,10 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 >6.主页书籍指南中: 1.利用开启后端api调用v-for-li
 		  2.分左右两列1.标签页2.主体页面 
+
+
+# Bug
+>1.Tabbar栏 icon active不显示的解决方案 在router内修改`linkActiveClass:'mui-active'`
+
+>2.在调用图标时，font-family 和font前缀作为标签调用 例如
+`<span class="iconfont Wasteshuji"></span>`
