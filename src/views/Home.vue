@@ -10,22 +10,19 @@
             
                 <ul class="ul-container">
                     <div class="li-content">
-                        <router-link to="" tag="li">湿垃圾</router-link>
-                        <router-link to="" tag="li">干垃圾</router-link>
-                        <router-link to="" tag="li">可回收物</router-link>
-                        <router-link to="" tag="li">有害垃圾</router-link>
+                        <router-link to="/Home/shi" tag="li">湿垃圾</router-link>
+                        <router-link to="/Home/gan" tag="li">干垃圾</router-link>
+                        <router-link to="/Home/huishou" tag="li">可回收物</router-link>
+                        <router-link to="/Home/youhai" tag="li">有害垃圾</router-link>
                     </div>
 
                 </ul>
             
         <!-- 主要内容——右内容  -->
-            <div class="content-container">
-                
+            <div class="content-container">  
                     <transition>
-                        <router-view></router-view>
+                        <router-view name="li-router"></router-view>
                     </transition>
-                
-
             </div>
         </div>
         
