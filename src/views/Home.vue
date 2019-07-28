@@ -63,14 +63,14 @@ export default {
         flex-direction: row;
         .ul-container{
             
-            background-color: #f1ebea;
+            background-color: #f1f1f1;
             width: 25%;
             list-style:none;
             margin: 0;
             padding: 0;
             
             .li-content{
-                color:white;
+                color:#b4b4b4;
                 font-family: Arial, Helvetica, sans-serif;
                 height: 60%;
                 display: flex;
@@ -82,7 +82,7 @@ export default {
         .content-container{
             width: 75%;
             margin: 0 15px;    
-            background-color: #f1ebea;
+            background-color: #f1f0ef;
             border-radius: 10px 10px 0 0;
         }
     }
