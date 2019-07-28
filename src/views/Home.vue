@@ -70,7 +70,7 @@ export default {
             padding: 0;
             
             .li-content{
-                color:black;
+                color:white;
                 font-family: Arial, Helvetica, sans-serif;
                 height: 60%;
                 display: flex;

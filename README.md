@@ -24,9 +24,11 @@ npm run test
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# 样式和资源需求
+1.字体
+2.背景色
+3.轮播图图片
+4.icon图片
 
 # 垃圾分类
 >1.主体仿造微信小程序中的垃圾分类指南
