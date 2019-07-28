@@ -21,7 +21,7 @@
         <!-- 主要内容——右内容  -->
             <div class="content-container">  
                     <transition>
-                        <router-view name="li-router"></router-view>
+                        <router-view ></router-view>
                     </transition>
             </div>
         </div>
