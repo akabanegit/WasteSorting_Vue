@@ -50,3 +50,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 `<span class="iconfont Wasteshuji"></span>`
 
 >3.vue动画的使用
+
+>4.如要使div撑满整个页面 必须初始化`html, body{ margin:0; height:100%; }` 一般最好先使用normalize.css 

@@ -31,10 +31,12 @@
 </template>
 
 <style lang="scss" scope>
-
+html, body{ margin:0; height:100%; }
 .app-container{ 
+  // height: 100%;
   overflow:hidden;
   padding-bottom:50px;
+  height: 100%;
 }
 //vue动画
 .v-enter
