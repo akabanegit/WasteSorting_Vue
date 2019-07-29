@@ -8,9 +8,9 @@
         <!-- 主要内容——左ul列表导航条 -->
         <div class="sum-container">
             
-                <ul class="ul-container">
-                    <div class="li-content">
-                        <router-link to="/Home/shi" tag="li">湿垃圾</router-link>
+                <ul class="ul-container" >
+                    <div class="li-content"   >
+                        <router-link to="/Home/shi" tag="li"  >湿垃圾</router-link>
                         <router-link to="/Home/gan" tag="li">干垃圾</router-link>
                         <router-link to="/Home/huishou" tag="li">可回收物</router-link>
                         <router-link to="/Home/youhai" tag="li">有害垃圾</router-link>
@@ -38,15 +38,22 @@ export default {
     data(){
         return{
             
+            
         }
     },
     components:{
         swiper
+    },
+    created(){
+        
+    },
+    methods:{
+
     }
 }
 </script>
 
-<style lang="scss" scope>
+<style lang="scss" scope >
 .home-container{
     height: 100%;
     display: flex;
@@ -59,7 +66,14 @@ export default {
         display: flex;
         flex-direction: row;
         .ul-container{
-            
+            .mui-active{
+                background-color: #956b57;
+                width: 100%;
+                height: 72px;
+                text-align: center;
+                line-height:72px;
+                
+            }
             background-color: #f1f1f1;
             width: 25%;
             list-style:none;
@@ -79,7 +93,7 @@ export default {
         .content-container{
             width: 75%;
             margin: 0 15px;    
-            background-color: #f1f0ef;
+            background-color: #dddcda;
             border-radius: 10px 10px 0 0;
         }
     }
@@ -91,7 +105,8 @@ export default {
         z-index: 999;
     }
     .item1{
-        background-color: red;
+        
+        background-color: blue;
     }
     .item2{
         background-color: blue;

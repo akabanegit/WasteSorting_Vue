@@ -19,8 +19,13 @@ export default new Router({
     //   name: 'home',
     //   component: Home
     // },
-    {path:'/',component:Home},
-    {path:'/Home',component:Home,children:[
+    {path:'/',component:Home,redirect:'/Home/shi',children:[
+      {path:'/Home/shi',component:shi},
+      {path:'/Home/gan',component:gan},
+      {path:'/Home/huishou',component:huishou},
+      {path:'/Home/youhai',component:youhai},
+    ]},
+    {path:'/Home',component:Home,redirect:'/Home/shi',children:[
       {path:'/Home/shi',component:shi},
       {path:'/Home/gan',component:gan},
       {path:'/Home/huishou',component:huishou},

@@ -6,10 +6,10 @@
             <!-- v-for="item in lunbotuList" :key='item.id' -->
             <mt-swipe-item >
             <!-- :src="item.img" alt="" :class="{'full':isfull}" -->
-            <img  class="item1" >
+            <img src='../assets/img/background1.jpg' class="item1" >
             </mt-swipe-item>
-            <mt-swipe-item ><img  class="item2" ></mt-swipe-item>
-            <mt-swipe-item ><img  class="item3" ></mt-swipe-item>
+            <mt-swipe-item ><img src='../assets/img/background2.jpg' class="item2" ></mt-swipe-item>
+            <mt-swipe-item ><img src='../assets/img/background3.jpg' class="item3" ></mt-swipe-item>
         </mt-swipe>
     </div>
 </template>
@@ -32,19 +32,9 @@ export default {
         img{
             width: 100%;
             height: 100%;
+            border-radius: 20px;
         }
-        .item1{
-            background-color: red;
-             border-radius: 20px;
-        }
-        .item2{
-            background-color: black;
-             border-radius: 20px;
-        }
-        .item3{
-            background-color: blue;
-             border-radius: 20px;
-        }
+
     }
 }
 
