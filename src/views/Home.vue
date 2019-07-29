@@ -20,7 +20,7 @@
             
         <!-- 主要内容——右内容  -->
             <div class="content-container">  
-                    <transition>
+                    <transition name="contentContainer">
                         <router-view ></router-view>
                     </transition>
             </div>
@@ -104,15 +104,25 @@ export default {
         font-weight: bold;
         z-index: 999;
     }
-    .item1{
-        
-        background-color: blue;
-    }
-    .item2{
-        background-color: blue;
-    }
-    .item3{
-        background-color: black;
-    }
+
 }
+.contentContainer-enter
+{
+  opacity: 0;
+  transform: translateX(-100%);
+  
+}
+.contentContainer-leave-to{
+  
+  opacity: 0;
+  transform: translateX(100%);
+  position:absolute;
+}
+
+.contentContainer-enter-active,
+.contentContainer-leave-active{
+  transition: all 0.25s ease-out;
+}
+
+
 </style>

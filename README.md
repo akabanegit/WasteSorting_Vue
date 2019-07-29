@@ -55,3 +55,6 @@ src——css——添加hello-mui
 >3.vue动画的使用
 
 >4.如要使div撑满整个页面 必须初始化`html, body{ margin:0; height:100%; }` 一般最好先使用normalize.css 
+
+>5.在使用scoll控件时候 需要移除严格模式
++解决方案 删去babel.config.js文件 添加一个新的.babelrc文件 即可使用"transform-remove-strict-mode"插件
