@@ -1,5 +1,6 @@
 <template>
     <div class="gan-container">
+        干垃圾
         <!-- <div class="mui-scroll-wrapper">
 	        <div class="mui-scroll">
                                 <li>11111</li>
