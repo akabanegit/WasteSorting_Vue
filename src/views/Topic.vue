@@ -11,7 +11,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scope>
+<style lang="scss" scoped>
 .topic-container{
     .mint-header{
         background-color: #40ae3c;

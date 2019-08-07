@@ -2,20 +2,20 @@
     <div class="gan-container">
         <!-- <div class="mui-scroll-wrapper">
 	        <div class="mui-scroll">
-
+                                <li>11111</li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
 	        </div>
         </div> -->
 
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+
     </div>
 </template>
 
@@ -31,6 +31,6 @@ export default {
 }
 </script>
 
-<style>
+<style lang='scss' scoped>
 
 </style>

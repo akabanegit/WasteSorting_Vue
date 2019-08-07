@@ -1,6 +1,6 @@
 <template>
     <div class="download-container">
-        <mt-header fixed class="header" title="下载"></mt-header>
+        <mt-header fixed  title="下载"></mt-header>
     </div>
 </template>
 
@@ -10,7 +10,8 @@ export default {
 }
 </script>
 
-<style lang="scss" scope>
+
+<style lang="scss" scoped>
 .download-container{ 
     .mint-header{
         background-color: #40ae3c;
