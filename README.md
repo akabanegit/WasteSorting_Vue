@@ -6,8 +6,8 @@
 ![Image text](https://raw.githubusercontent.com/akabanegit/WasteSorting_Vue/master/img-folder/waste2.PNG)
 
 ![Image text](https://raw.githubusercontent.com/akabanegit/WasteSorting_Vue/master/img-folder/waste3.PNG)
-
-
+ 
+  
 ## Project setup
 ```
 npm install
