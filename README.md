@@ -1,4 +1,8 @@
-# my_project
+# 技术栈 Vue-cli+Vue.Router+Axios
+
+# 演示图片
+
+
 
 ## Project setup
 ```
@@ -15,15 +19,6 @@ npm run serve
 npm run build
 ```
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
 src——css——添加hello-mui
 # 样式和资源需求
 1.字体
