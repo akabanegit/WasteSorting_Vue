@@ -1,7 +1,9 @@
 # 技术栈 Vue-cli+Vue.Router+Axios
 
 # 演示图片
-
+![Image text](https://raw.githubusercontent.com/akabanegit/WasteSorting_Vue/master/img-folder/waste1.PNG)
+![Image text](https://raw.githubusercontent.com/akabanegit/WasteSorting_Vue/master/img-folder/waste2.PNG)
+![Image text](https://raw.githubusercontent.com/akabanegit/WasteSorting_Vue/master/img-folder/waste3.PNG)
 
 
 ## Project setup
